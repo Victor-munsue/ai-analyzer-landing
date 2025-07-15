@@ -2,197 +2,214 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI Data Analyzer – Smart Data Insights</title>
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Data Analyzer – Smart Data Insights</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
 
-    body {
-      margin: 0;
-      font-family: "Segoe UI", sans-serif;
-      background-color: #000000;
-      color: #ffffff;
-    }
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+        }
 
-    header {
-      background-color: #001f3f;
-      padding: 3rem 2rem;
-      text-align: center;
-    }
+        header {
+            background-color: #001f3f;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
 
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
 
-    header p {
-      font-size: 1.2rem;
-      color: #dcdcdc;
-    }
+        header p {
+            font-size: 1.2rem;
+            color: #dcdcdc;
+        }
 
-    section {
-      padding: 3rem 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
+        section {
+            padding: 3rem 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
 
-    section h2 {
-      color: #ffffff;
-      font-size: 2rem;
-      border-bottom: 2px solid #004080;
-      padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-    }
+        section h2 {
+            color: #ffffff;
+            font-size: 2rem;
+            border-bottom: 2px solid #004080;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
 
-    section p {
-      font-size: 1.1rem;
-      color: #d0d0d0;
-      line-height: 1.6;
-      margin-bottom: 1.5rem;
-    }
+        section p {
+            font-size: 1.1rem;
+            color: #d0d0d0;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
 
-    ul {
-      padding-left: 1.2rem;
-      margin-bottom: 2rem;
-    }
+        ul {
+            padding-left: 1.2rem;
+            margin-bottom: 2rem;
+        }
 
-    ul li {
-      margin-bottom: 0.8rem;
-      font-size: 1.05rem;
-      color: #cccccc;
-    }
+        ul li {
+            margin-bottom: 0.8rem;
+            font-size: 1.05rem;
+            color: #cccccc;
+        }
 
-    .btn-container {
-      text-align: center;
-      margin: 4rem 0;
-    }
+        .btn-container {
+            text-align: center;
+            margin: 4rem 0;
+        }
 
-    .get-started-btn {
-      background-color: #004080;
-      color: white;
-      border: none;
-      padding: 1rem 2rem;
-      font-size: 1.2rem;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: background-color 0.3s ease;
-    }
+        .get-started-btn {
+            background-color: #004080;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
 
-    .get-started-btn:hover {
-      background-color: #0059b3;
-    }
+        .get-started-btn:hover {
+            background-color: #0059b3;
+        }
 
-    footer {
-      background-color: #001f3f;
-      color: #999999;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-    }
+        .go-to-app {
+            background-color: #004080;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            display: inline-block;
+            margin-bottom: 3rem;
+        }
 
-    .fade-in {
-      opacity: 0;
-      transform: translateY(20px);
-      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-    }
+        footer {
+            background-color: #001f3f;
+            color: #999999;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
 
-    .visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  </style>
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
 </head>
 
 <body>
 
-  <header>
-    <h1>AI Data Analyzer – Smart data Insights for Everyday People</h1>
-    <p>Your personal AI-powered financial assistant</p>
-  </header>
+    <header>
+        <h1>AI Data Analyzer – Smart data Insights for Everyday People</h1>
+        <p>Your personal AI-powered financial assistant</p>
+    </header>
 
-  <section class="fade-in">
-    <h2>What is AI Data Analyzer?</h2>
-    <p>AI Data Analyzer is your personal data assistant powered by Artificial Intelligence. It helps you analyze your
-      bank statements, track income and expenses, and spot unusual transactions — automatically.</p>
-  </section>
+    <section class="fade-in">
+        <h2>What is AI Data Analyzer?</h2>
+        <p>AI Data Analyzer is your personal data assistant powered by Artificial Intelligence. It helps you analyze
+            your
+            bank statements, track income and expenses, and spot unusual transactions — automatically.</p>
+    </section>
 
-  <section class="fade-in">
-    <h2>Why Should You Use It?</h2>
-    <ul>
-      <li>Instant Results – Just upload your data (Excel or CSV).</li>
-      <li>No Manual Calculations – The AI detects patterns, flags duplicate or suspicious transactions.</li>
-      <li>Easy-to-Read Reports – Get summaries you can understand.</li>
-      <li>Secure & Private – We do not store your data.</li>
-      <li>Zero Tech Skills Needed – Works like magic, even if you're not a techie.</li>
-    </ul>
-  </section>
+    <section class="fade-in">
+        <h2>Why Should You Use It?</h2>
+        <ul>
+            <li>Instant Results – Just upload your data (Excel or CSV).</li>
+            <li>No Manual Calculations – The AI detects patterns, flags duplicate or suspicious transactions.</li>
+            <li>Easy-to-Read Reports – Get summaries you can understand.</li>
+            <li>Secure & Private – We do not store your data.</li>
+            <li>Zero Tech Skills Needed – Works like magic, even if you're not a techie.</li>
+        </ul>
+    </section>
 
-  <section class="fade-in">
-    <h2>Who Is This For?</h2>
-    <ul>
-      <li>Business owners who want quick summaries of their cashflow.</li>
-      <li>Everyday people that want Excel reconciliation made smart with AI.</li>
-      <li>People that want to turn messy Excel files into clear reports in seconds.</li>
-      <li>Accountants and bookkeepers who want automation, saving hours of excel work.</li>
-      <li>Salaried workers tracking their income vs. spending.</li>
-      <li>Anyone who receives bank statements and wants to understand them better.</li>
-    </ul>
-  </section>
+    <section class="fade-in">
+        <h2>Who Is This For?</h2>
+        <ul>
+            <li>Business owners who want quick summaries of their cashflow.</li>
+            <li>Everyday people that want Excel reconciliation made smart with AI.</li>
+            <li>People that want to turn messy Excel files into clear reports in seconds.</li>
+            <li>Accountants and bookkeepers who want automation, saving hours of excel work.</li>
+            <li>Salaried workers tracking their income vs. spending.</li>
+            <li>Anyone who receives bank statements and wants to understand them better.</li>
+        </ul>
+    </section>
 
-  <section class="fade-in">
-    <h2>Pricing</h2>
-    <p>₦15,000/month (or $10/month)</p>
-    <ul>
-      <li>Unlimited analysis and organization of your Excel, CSV data</li>
-      <li>Real-time report generation</li>
-      <li>Continuous improvements</li>
-      <li>Priority support</li>
-      <li>No hidden charges. Cancel anytime.</li>
-    </ul>
-  </section>
+    <section class="fade-in">
+        <h2>Pricing</h2>
+        <p>₦15,000/month (or $10/month)</p>
+        <ul>
+            <li>Unlimited analysis and organization of your Excel, CSV data</li>
+            <li>Real-time report generation</li>
+            <li>Continuous improvements</li>
+            <li>Priority support</li>
+            <li>No hidden charges. Cancel anytime.</li>
+        </ul>
+    </section>
 
-  <section class="fade-in">
-    <h2>Security First</h2>
-    <p>We do not store your financial data. Everything runs securely inside your browser and is erased once you're done.
-      Your peace of mind is our top priority.</p>
-  </section>
+    <section class="fade-in">
+        <h2>Security First</h2>
+        <p>We do not store your financial data. Everything runs securely inside your browser and is erased once you're
+            done.
+            Your peace of mind is our top priority.</p>
+    </section>
 
-  <section class="fade-in">
-    <h2>What You Get</h2>
-    <ul>
-      <li>Upload your file</li>
-      <li>Get a neat summary of total income and expenses</li>
-      <li>See suspicious or duplicate transactions</li>
-      <li>Download your cleaned Excel, CSV file report into PDF or as Excel file</li>
-      <li>Done!</li>
-    </ul>
-  </section>
+    <section class="fade-in">
+        <h2>What You Get</h2>
+        <ul>
+            <li>Upload your file</li>
+            <li>Get a neat summary of total income and expenses</li>
+            <li>See suspicious or duplicate transactions</li>
+            <li>Download your cleaned Excel, CSV file report into PDF or as Excel file</li>
+            <li>Done!</li>
+        </ul>
+    </section>
 
-  <div class="btn-container">
-    <a class="get-started-btn"
-      href="https://wa.me/2349161398285?text=I%20want%20to%20get%20started%20with%20AI%20Data%20Analyzer">Get
-      Started</a>
-  </div>
+    <div class="btn-container">
+        <a class="get-started-btn"
+            href="https://wa.me/2349072746593?text=I%20want%20to%20get%20started%20with%20AI%20Data%20Analyzer">Get
+            Started</a>
+    </div>
 
-  <footer>
-    &copy; 2025 AI Analyzer. Built by Victor.
-  </footer>
+    <div style="text-align:center;">
+        <a href="https://yahnova-ai-data-analyser.streamlit.app/" target="_blank" class="go-to-app">Go to App</a>
+    </div>
 
-  <script>
-    const fadeElements = document.querySelectorAll('.fade-in');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.2 });
+    <footer>
+        &copy; 2025 AI Analyzer. Built by Victor.
+    </footer>
 
-    fadeElements.forEach(el => observer.observe(el));
-  </script>
+    <script>
+        const fadeElements = document.querySelectorAll('.fade-in');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.2 });
+
+        fadeElements.forEach(el => observer.observe(el));
+    </script>
 
 </body>
 
